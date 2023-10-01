@@ -13,6 +13,8 @@ if Bmonth <= currentMonth :
         currentAge = currentYear - 1 - Byear
     else :
         currentAge = currentYear - Byear
+else :
+        currentAge = currentYear - Byear
 
 print("Father's name:", Fname)
 print("Birthplace:", Bplace)
